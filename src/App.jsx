@@ -335,7 +335,7 @@ function App() {
             rel="noopener noreferrer"
             className="w-full mt-2 px-4 py-2 bg-green-600 text-white rounded flex items-center justify-center gap-2"
           >
-            <img src="public/images/whatsapp-icon.png" alt="WhatsApp" className="w-5 h-5" />
+            <FontAwesomeIcon icon={faWhatsapp} className="mr-2" />
             {t.orderNow}
           </a>
         </div>
