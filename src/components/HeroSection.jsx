@@ -1,20 +1,21 @@
 import React from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/autoplay';
-import { Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/autoplay";
+import { Autoplay } from "swiper/modules";
 
 const HeroSection = () => {
   const images = [
-    '/images/slide1.jpg',
-    '/images/slide2.jpg',
-    '/images/slide3.jpg',
-    '/images/slide4.jpg',
-    '/images/slide5.jpg',
+    "/images/slide1.jpg",
+    "/images/slide2.jpg",
+    "/images/slide3.jpg",
+    "/images/slide4.jpg",
+    "/images/slide5.jpg",
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full cliped h-screen" dir="ltr">
+      <div className="h-[50px] bg-red-900"></div>
       <Swiper
         modules={[Autoplay]}
         autoplay={{ delay: 3000 }}
@@ -36,4 +37,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
