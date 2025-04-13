@@ -52,12 +52,12 @@ const Navbar = () => {
           </button>
         ))}
 
-        <button
+        {/* <button
           onClick={() => setIsDarkMode(!isDarkMode)}
           className="bg-gray-900 hover:bg-gray-600 text-white px-4 py-2 rounded-lg shadow-md transform transition-all duration-300 ease-in-out hover:scale-105"
         >
           {isDarkMode ? "Light Mode" : "Dark Mode"}
-        </button>
+        </button> */}
       </div>
     </nav>
   );
