@@ -10,7 +10,7 @@ const Feedbacks = () => {
     //   <h1 className="text-2xl mb-4 text-center text-red-600 font-bold mt-[50px]">
     //     {t("feedbacks")}
     //   </h1>
-    <Section id={"feedbacks"} title={t("feedbacks")} isGrey={false}>
+    <Section id={"feedbacks"} title={t("feedbacks")} isGrey={false} dir="ltr">
       <Marquee className="overflow-hidden">
         {/* <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"> */}
         {[

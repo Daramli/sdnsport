@@ -10,7 +10,7 @@ const OurServices = () => {
     //   <h1 className="text-2xl mb-4 text-center mt-[100px] text-red-600 font-bold">
     //     {t("services")}
     //   </h1>
-    <Section id={"services"} title={t("services")} isGrey={false}>
+    <Section id={"services"} title={t("services")} isgrey={false}>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {ourServicesData.map((service) => (
           <div

@@ -15,7 +15,7 @@ const HeroSection = () => {
 
   return (
     <div className="w-full cliped h-screen" dir="ltr">
-      <div className="h-[50px] bg-red-900"></div>
+      <div className="h-[50px] sm:h-20 bg-red-900"></div>
       <Swiper
         modules={[Autoplay]}
         autoplay={{ delay: 3000 }}
@@ -27,7 +27,7 @@ const HeroSection = () => {
             <img
               src={img}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover object-center"
+              className="w-full h-screen object-fill "
             />
           </SwiperSlide>
         ))}
