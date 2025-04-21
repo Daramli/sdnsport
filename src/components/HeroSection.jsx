@@ -27,7 +27,7 @@ const HeroSection = () => {
             <img
               src={img}
               alt={`Slide ${index + 1}`}
-              className="w-full h-screen object-fill "
+              className="w-full h-half object-fill "
             />
           </SwiperSlide>
         ))}
