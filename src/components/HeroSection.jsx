@@ -14,7 +14,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <div className="w-full" dir="ltr">
+    <div className="w-full h-screen/2" dir="ltr">
       <div className="h-[50px] sm:h-20 bg-red-900"></div>
       <Swiper
         modules={[Autoplay]}
