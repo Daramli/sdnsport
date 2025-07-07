@@ -83,7 +83,7 @@ const Footer = () => {
               {/* مندوب السعودية */}
               <li>
                 <a
-                  href="https://wa.me/966532495905" // استبدل هذا الرقم برقم المندوب السعودي
+                  href="https://wa.me/966530365877" // استبدل هذا الرقم برقم المندوب السعودي
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center"
