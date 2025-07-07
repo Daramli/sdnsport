@@ -100,8 +100,8 @@ const prices = {
   السعودية: {
     "HILAL AWAY 24/25": "55  ",
     "MERIEKH HOME 24/25": "55  ",
-    "SUDAN AWAY 24/25": "50  ",
-    "SUDAN HOME 24/25": "50  ",
+    "SUDAN AWAY 24/25": "55  ",
+    "SUDAN HOME 24/25": "55  ",
     "SUDAN ARMY": "55  ",
   },
   أخرى: {
